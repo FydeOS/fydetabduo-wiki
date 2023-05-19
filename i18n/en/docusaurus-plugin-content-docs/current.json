@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for category Getting Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Managing Devices": {
+    "message": "Managing Devices",
+    "description": "The label for category Managing Devices in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Kiosk": {
+    "message": "Kiosk",
+    "description": "The label for category Kiosk in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Managing Users": {
+    "message": "Managing Users",
+    "description": "The label for category Managing Users in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Managing Application": {
+    "message": "Managing Application",
+    "description": "The label for category Managing Application in sidebar tutorialSidebar"
+  }
+}
