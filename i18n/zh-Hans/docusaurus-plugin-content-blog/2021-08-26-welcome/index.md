@@ -1,25 +1,46 @@
 ---
 slug: welcome
-title: Welcome
-authors: [slorber, yangshun]
-tags: [facebook, hello, docusaurus]
+title: 欢迎
+authors: [Archie]
+tags: [FydeOS, FydeOS 企业服务, FydeOS 云集管平台]
 ---
 
-[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
+你好，欢迎来到**FydeOS 企业博客**！我们非常高兴你能与我们一同开始这个关于 FydeOS 的探索和发现的旅程。
 
-Simply add Markdown files (or folders) to the `blog` directory.
+我们的博客旨在为你提供有关 FydeOS 企业服务的所有内容。我们在这里分享洞见，提供提示，并探讨最新的更新，以帮助企业、IT 专业人员和个人充分使用 FydeOS。
 
-Regular blog authors can be added to `authors.yml`.
+这不仅仅是一系列文章的集合，它也是一个对云系统充满热情的人的繁荣社区。
 
-The blog post date can be extracted from filenames, such as:
+---
 
-- `2019-05-30-welcome.md`
-- `2019-05-30-welcome/index.md`
+## **期待什么**
 
-A blog post folder can be convenient to co-locate blog post images:
+在接下来的时间中，我们将深入探讨一系列主题：
 
-![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)
+- 简化我们平台复杂性的详细指南。
+- 展示 FydeOS 在多样化业务场景中的变革力量的案例研究。
+- 专家访谈和领导思想文章，以让你随时了解云计算领域的最新趋势和技术。
 
-The blog supports tags as well!
+---
 
-**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config.
+## **加入我们的社区**
+
+我们鼓励你探索，提问，并分享你的经验。无论你是跨国公司的 IT 经理，还是初创公司的开发人员，或者只是想学习更多的技术爱好者，这里都有你需要的。
+
+---
+
+## **我们的承诺**
+
+我们致力于为你创造一个无缝的、交互式的、富有信息的体验，这是我们所做的一切的核心。因此，欢迎来到 FydeOS 管理云企业 Wiki 博客 - 你充分利用 FydeOS 的绝佳知识来源。
+
+为了确保你不会错过任何更新，我们邀请你订阅我们的博客，关注我们的社交媒体频道，加入我们的社区。
+
+---
+
+让我们一起迈向 FydeOS 的未来！
+
+感谢你加入这个激动人心的旅程，我们期待着与你交流，向你提供信息，并用驱动云计算世界进步的知识赋予你力量。
+
+*最诚挚的问候，*
+
+*FydeOS 管理云企业团队*

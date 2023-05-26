@@ -1,47 +1,36 @@
 ---
 sidebar_position: 1
+slug: /
 ---
+# FydeOS 企业百科
 
-# Tutorial Intro
+**欢迎来到 FydeOS 企业百科**，这是一份全面的指南，用于管理企业内部的 FydeOS 生态系统。这个中心旨在为你提供所有必要的信息，帮助你开始使用，管理设备、应用程序、用户和自助服务终端设置。
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## 入门指南
 
-## Getting Started
+**入门指南**部分介绍了**FydeOS 云集管平台**，这是一个允许 IT 管理员管理用户和设备的基于网络的应用程序。它指导用户如何：
+- 加入企业
+- 注册 FydeOS 设备
+- 理解付费订阅 FydeOS 的好处。
 
-Get started by **creating a new site**.
+## 设备管理
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+**设备管理**部分提供了关于管理设备策略和安全擦除个人数据的详细指南。它指导你完成以下步骤：
+1. 将设备恢复至出厂设置。
 
-### What you'll need
+## 应用管理
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+**应用管理**部分教导用户如何通过 FydeOS 云集管平台管理应用程序的各个方面，包括：
+- 企业用户应用
+- 浏览器
+- 自助服务终端。
 
-## Generate a new site
+## 用户管理
 
-Generate a new Docusaurus site using the **classic template**.
+**用户管理**部分涵盖了如何在 FydeOS 云集管平台上添加、移动和删除用户以满足企业组织的需求。同时还提供了全面的用户策略管理指南。
 
-The classic template will automatically be added to your project after you run the command:
+## 自助服务终端
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+最后，**自助服务终端**部分提供了一个关于 FydeOS 自助服务终端功能的用户指南。
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+这个文档中心是 IT 管理员和 FydeOS 用户的宝贵资源，提供了大量信息帮助他们优化他们的 FydeOS 体验。

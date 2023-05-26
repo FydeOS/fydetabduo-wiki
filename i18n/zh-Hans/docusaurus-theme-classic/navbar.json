@@ -1,22 +1,22 @@
 {
   "title": {
-    "message": "FydeOS Enterprise Wiki",
+    "message": "FydeOS 企业百科",
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "FydeOS Enterprise Wiki Logo",
+    "message": "FydeOS 企业百科 Logo",
     "description": "The alt text of navbar logo"
   },
   "item.label.Docs": {
-    "message": "Docs",
+    "message": "文档",
     "description": "Navbar item with label Docs"
   },
   "item.label.Blog": {
-    "message": "Blog",
+    "message": "博客",
     "description": "Navbar item with label Blog"
   },
   "item.label.FydeOS Management Cloud": {
-    "message": "FydeOS Management Cloud",
-    "description": "Navbar item with label FydeOS Management Cloud"
+    "message": "FydeOS 云集管平台",
+    "description": "Navbar item with label GitHub"
   }
 }

@@ -1,26 +1,26 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "下一个",
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Getting Started": {
     "message": "开始使用",
-    "description": "The label for category 开始使用 in sidebar tutorialSidebar"
+    "description": "The label for category Getting Started in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Managing Devices": {
     "message": "管理设备",
-    "description": "The label for category 管理设备 in sidebar tutorialSidebar"
+    "description": "The label for category Managing Devices in sidebar tutorialSidebar"
 },
 "sidebar.tutorialSidebar.category.Managing Application": {
 "message": "管理应用",
-"description": "The label for category 管理应用 in sidebar tutorialSidebar"
+"description": "The label for category Managing Application in sidebar tutorialSidebar"
 },
   "sidebar.tutorialSidebar.category.Kiosk": {
     "message": "自助终端",
-    "description": "The label for category 自助终端 in sidebar tutorialSidebar"
+    "description": "The label for category Kiosk in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Managing Users": {
     "message": "管理用户",
-    "description": "The label for category 管理用户 in sidebar tutorialSidebar"
+    "description": "The label for category Managing Users in sidebar tutorialSidebar"
 }
 }

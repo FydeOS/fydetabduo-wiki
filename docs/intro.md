@@ -1,47 +1,38 @@
 ---
 sidebar_position: 1
+id: intro
+slug : /
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**Welcome to the FydeOS Enterprise Wiki**, your comprehensive guide to managing your enterprise's FydeOS ecosystem. This center is designed to provide you with all the necessary information to get started, manage devices, applications, users, and kiosk settings.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+In the *Getting Started* section, you will find information about the **FydeOS Management Cloud**, a web-based application that allows IT admins to manage users and devices within the enterprise. It also provides guidance on how to:
+- Join the enterprise
+- Register FydeOS devices
+- Understand the benefits of a paid subscription to FydeOS.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Managing Devices
 
-### What you'll need
+The *Managing Devices* section provides detailed instructions on managing device policies and securely erasing your device to protect your personal data. It guides you through the process of:
+Restoring your device to its factory settings.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Managing Applications
 
-## Generate a new site
+In the *Managing Applications* section, you will learn how to effectively manage various aspects of application programs through the FydeOS Management Cloud. This platform allows you to control:
+- Application programs for enterprise users
+- Browsers
+- Self-service terminals.
 
-Generate a new Docusaurus site using the **classic template**.
+## Managing Users
 
-The classic template will automatically be added to your project after you run the command:
+The *Managing Users* section guides you on how to add, move, and delete users on the FydeOS Management Cloud to meet the needs of your enterprise organization. It also provides comprehensive guidance on managing user policies.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Kiosk
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+Lastly, the *Kiosk* section provides a user's guide to the Kiosk feature of FydeOS, offering an introduction to its functionalities.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+This Enterprise Wiki is a valuable resource for IT administrators and FydeOS users alike, providing a wealth of information to help you navigate and optimize your FydeOS experience.
