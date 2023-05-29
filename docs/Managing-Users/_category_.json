@@ -1,6 +1,6 @@
 {
-  "label": "自助终端",
-  "position": 6,
+  "label": "Managing Users",
+  "position": 5,
   "link": {
     "type": "generated-index"
   }
