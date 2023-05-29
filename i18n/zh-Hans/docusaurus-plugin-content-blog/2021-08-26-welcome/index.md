@@ -43,4 +43,4 @@ tags: [FydeOS, FydeOS 企业服务, FydeOS 云集管平台]
 
 *最诚挚的问候，*
 
-*FydeOS 企业团队*
+*FydeOS 管理云企业团队*
