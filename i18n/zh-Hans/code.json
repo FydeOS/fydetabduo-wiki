@@ -8,11 +8,11 @@
     "description": "404 页面的标题"
   },
   "theme.NotFound.p1": {
-    "message": "我们无法找到您要寻找的内容。",
+    "message": "我们无法找到」你要寻找的内容。",
     "description": "404 页面的第一段文字"
   },
   "theme.NotFound.p2": {
-    "message": "请联系链接您到原始 URL 的站点所有者，并告知他们链接已损坏。",
+    "message": "请联系链接」你到原始 URL 的站点所有者，并告知他们链接已损坏。",
     "description": "404 页面的第二段文字"
   },
   "theme.admonition.note": {
