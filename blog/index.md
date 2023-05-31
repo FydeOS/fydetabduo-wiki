@@ -1,7 +1,6 @@
-
----
+--- 
 slug: welcome
-title: Welcome to FydeOS Enterprise 🎉
+title: Welcome
 authors: [Archie]
 tags: [FydeOS, FydeOS Enterprise, FydeOS Management Cloud]
 ---
