@@ -6,20 +6,20 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {{onBrokenLinks: string, baseUrl: string, presets: [string,Options][], organizationName: string, favicon: string, tagline: string, themeConfig: ThemeConfig & UserThemeConfig & AlgoliaThemeConfig, title: string, projectName: string, url: string, onBrokenMarkdownLinks: string, i18n: {defaultLocale: string, locales: string[], localeConfigs: {"zh-Hans": {htmlLang: string, label: string, direction: string}, en: {htmlLang: string, label: string, direction: string}}}}} */
 const config = {
-    title: 'FydeOS Enterprise ',
+    title: 'Fydetab Duo Wiki ',
     tagline: 'Wiki',
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
-    url: 'https://enterprise.fydeos.com/',
+    url: 'https://lorde627.github.io/',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: '/',
+    baseUrl: '/fydetab-wiki-dev/',
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    //organizationName: 'FydeOS', // Usually your GitHub org/user name.
-    //projectName: 'Enterprise-docs', // Usually your repo name.
+    organizationName: 'Lorde627', // Usually your GitHub org/user name.
+    projectName: 'fydetab-wiki-dev', // Usually your repo name.
 
     onBrokenLinks: 'ignore',
     onBrokenMarkdownLinks: 'warn',
@@ -81,9 +81,9 @@ const config = {
                 autoCollapseCategories: true,
             },
             navbar: {
-                title: 'FydeOS Enterprise Wiki',
+                title: 'Fydetab Duo Wiki',
                 logo: {
-                    alt: 'FydeOS Enterprise Wiki Logo',
+                    alt: 'Fydetab Duo Wiki Logo',
                     src: 'img/logo.svg',
                 },
                 items: [
@@ -99,11 +99,6 @@ const config = {
                         position: 'right',
                     },
                     {to: '/blog', label: 'Blog', position: 'left'},
-                    {
-                        href: 'https://admin.fydeos.com',
-                        label: 'FydeOS Management Cloud',
-                        position: 'right',
-                    },
                 ],
             },
             footer: {
