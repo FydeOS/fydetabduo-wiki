@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {{onBrokenLinks: string, baseUrl: string, presets: [string,Options][], organizationName: string, favicon: string, tagline: string, themeConfig: ThemeConfig & UserThemeConfig & AlgoliaThemeConfig, title: string, projectName: string, url: string, onBrokenMarkdownLinks: string, i18n: {defaultLocale: string, locales: string[], localeConfigs: {"zh-Hans": {htmlLang: string, label: string, direction: string}, en: {htmlLang: string, label: string, direction: string}}}}} */
 const config = {
-    title: 'Fydetab Duo Wiki ',
+    title: 'Fydetab Duo Wiki',
     tagline: 'Wiki',
-    favicon: 'img/favicon.ico',
+    favicon: 'img/logo.svg',
     url: 'https://fydeos.github.io/',
     baseUrl: '/fydetabduo-wiki/',
     organizationName: 'FydeOS',
@@ -50,7 +50,7 @@ const config = {
         ],
     ],
     themeConfig: {
-        image: 'img/docusaurus-social-card.jpg',
+        image: 'img/fydeos-social-card.png',
         sidebar: {
             hideable: true,
             autoCollapseCategories: true,
@@ -134,11 +134,15 @@ function getFooterLinks(locale) {
                 title: '更多',
                 items: [
                     {
+                        label: 'FydeOS 官网',
+                        href: 'https://fydeos.com/',
+                    },
+                    {
                         label: 'Fydetab Duo 官网',
                         href: 'https://fydetabduo.cn/',
                     },
                     {
-                        label: 'Made for FydeOS',
+                        label: 'FydeOS 官方商店',
                         href: 'https://madeforfydeos.cn/',
                     },
 
@@ -181,8 +185,20 @@ function getFooterLinks(locale) {
                 title: 'More',
                 items: [
                     {
+                        label: 'FydeOS Official Website',
+                        href: 'https://fydeos.io/',
+                    },
+                    {
                         label: 'GitHub',
                         href: 'https://github.com/FydeOS',
+                    },
+                    {
+                        label: 'Fydetab Duo Official Website',
+                        href: 'https://fydetabduo.com/',
+                    },
+                    {
+                        label: 'FydeOS Official Store',
+                        href: 'https://madeforfydeos.com/',
                     },
                 ],
             }
