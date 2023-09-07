@@ -1,5 +1,5 @@
 {
-    "label": "OS Release Board" ,
+    "label": "OS 发布版本" ,
     "position": 7,
     "link": {
         "type": "generated-index"
