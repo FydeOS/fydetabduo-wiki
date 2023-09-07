@@ -98,7 +98,6 @@ const config = {
                         type: 'localeDropdown',
                         position: 'right',
                     },
-                    {to: '/blog', label: 'Blog', position: 'left'},
                 ],
             },
             footer: {
@@ -137,10 +136,6 @@ const config = {
                     {
                         title: 'More',
                         items: [
-                            {
-                                label: 'Blog',
-                                to: '/blog',
-                            },
                             {
                                 label: 'GitHub',
                                 href: 'https://github.com/FydeOS',
