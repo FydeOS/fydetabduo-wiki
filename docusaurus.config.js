@@ -11,15 +11,15 @@ const config = {
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
-    url: 'https://lorde627.github.io/',
+    url: 'https://fydeos.github.io/',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: '/fydetab-wiki-dev/',
+    baseUrl: '/fydetabduo-wiki/',
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'Lorde627', // Usually your GitHub org/user name.
-    projectName: 'fydetab-wiki-dev', // Usually your repo name.
+    organizationName: 'FydeOS', // Usually your GitHub org/user name.
+    projectName: 'fydetabduo-wiki', // Usually your repo name.
 
     onBrokenLinks: 'ignore',
     onBrokenMarkdownLinks: 'warn',
