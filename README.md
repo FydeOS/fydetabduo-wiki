@@ -1,61 +1,23 @@
-# Website
+# Fydetab Duo Wiki Project 📚
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+Welcome to the **Fydetab Duo Wiki Project**, your go-to source for comprehensive information on the Fydetab Duo. This project is designed to be an interactive and detailed knowledge base for users.
 
-### Installation
+## About 🌟
 
-```
-$ yarn
-```
+The Fydetab Duo Wiki is a curated repository aimed at providing support and insights for users, offering everything from setup guides to advanced tips.
 
-### Local Development
+## Contributing 🤝
 
-```
-$ yarn start
-```
+Your contributions are essential to the success of this project. You can help by updating existing content or adding new information.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+### How to Contribute
 
-### Build
+![edit this page](static/img/edit_this_page.png)
+- **Make Edits:** Click the `Edit this page` button at the bottom of any page to start editing.
 
-```
-$ yarn build
-```
+- **Submit Changes:** After editing, submit a pull request. We will review your changes and, if appropriate, merge them into the main documentation.
+- **Stay Engaged:** Your changes, once reviewed and accepted, will be incorporated and made available to all users.
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## Join Us 🌍
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
-
-### Multi-domain deployment
-
-```
-yarn build --locale zh-hans
-```
-Docusaurus will not add the /zh-hans/ URL prefix.
-
-On your static hosting provider:
-- create one deployment per locale
-- configure the appropriate build command, using the --locale option
-- configure the (sub)domain of your choice for each deployment
-
-## Hybrid
-
-It is possible to have some locales using sub-paths, and others using subdomains.
-It is also possible to deploy each locale as a separate subdomain, assemble the subdomains in a single unified domain at the CDN level:
-- Deploy your site as fr.docusaurus.io
-- Configure a CDN to serve it from docusaurus.io/fr
-
+By contributing to the Fydetab Duo Wiki, you become part of a community dedicated to enhancing everyone's experience with Fydetab Duo. We value your input and look forward to your contributions!
