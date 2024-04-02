@@ -8,7 +8,7 @@ const config = {
     title: 'Fydetab Duo Wiki',
     tagline: 'Wiki',
     favicon: 'img/logo.svg',
-    url: 'https://lorde627.github.io/',
+    url: 'https://fydeos.github.io/',
     baseUrl: '/fydetabduo-wiki/',
     organizationName: 'FydeOS',
     projectName: 'fydetabduo-wiki',
@@ -37,7 +37,7 @@ const config = {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
                     routeBasePath: '/',
-                    editUrl: 'https://github.com/Lorde627/fydetab-wiki-dev/tree/main/',
+                    editUrl: 'https://github.com/FydeOS/fydetabduo-wiki/tree/main/',
                 },
                 blog: {
                     showReadingTime: true,
