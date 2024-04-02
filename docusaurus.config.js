@@ -1,15 +1,14 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {{onBrokenLinks: string, baseUrl: string, presets: [string,Options][], organizationName: string, favicon: string, tagline: string, themeConfig: ThemeConfig & UserThemeConfig & AlgoliaThemeConfig, title: string, projectName: string, url: string, onBrokenMarkdownLinks: string, i18n: {defaultLocale: string, locales: string[], localeConfigs: {"zh-Hans": {htmlLang: string, label: string, direction: string}, en: {htmlLang: string, label: string, direction: string}}}}} */
 const config = {
     title: 'Fydetab Duo Wiki',
     tagline: 'Wiki',
     favicon: 'img/logo.svg',
-    url: 'https://fydeos.github.io/',
+    url: 'https://lorde627.github.io/',
     baseUrl: '/fydetabduo-wiki/',
     organizationName: 'FydeOS',
     projectName: 'fydetabduo-wiki',
@@ -80,42 +79,76 @@ const config = {
             copyright: getCopyrightText(process.env.DOCUSAURUS_CURRENT_LOCALE),
         },
         prism: {
-            theme: lightCodeTheme,
-            darkTheme: darkCodeTheme,
         },
     },
 };
-function getCopyrightText(locale) {
-    if (locale === 'zh-Hans') {
-        return `版权所有 © ${new Date().getFullYear()} 燧炻创新；保留一切权利。`;
-    } else {
-        return `Copyright © ${new Date().getFullYear()} Fyde Innovations, Inc. All rights reserved`;
-    }
+
+function getCopyrightText(locale) { if (locale === 'zh-Hans') {
+    return `版权所有 © ${new Date().getFullYear()} 燧炻创新；保留一切权利。`;
+} else {
+    return `Copyright © ${new Date().getFullYear()} Fyde Innovations, Inc. All rights reserved`;
+}
 }
 
 function getFooterLinks(locale) {
     if (locale === 'zh-Hans') {
         return [
             {
-                title: '文档',
+                title: '信息',
                 items: [
                     {
-                        label: 'Fydetab Duo 介绍',
-                        to: '/',
+                        label: '下载',
+                        href: 'https://fydeos.com/download/',
+                    },
+                    {
+                        label: '解决方案',
+                        href: 'https://admin.fydeos.com/',
+                    },
+                    {
+                        label: '查看定价',
+                        href: 'https://fydeos.com/pricing/',
+                    },
+                    {
+                        label: '获取帮助',
+                        href: 'https://fydeos.com/pricing/',
+                    },
+                    {
+                        label: '隐私条款',
+                        href: 'https://fydeos.com/privacy/',
+                    },
+                    {
+                        label: '服务协议',
+                        href: 'https://fydeos.com/terms/',
+                    },
+                ],
+            },
+            {
+                title: '服务',
+                items: [
+                    {
+                        label: '账号',
+                        href: 'https://account.fydeos.com/',
+                    },
+                    {
+                        label: '中文社区',
+                        href: 'https://community.fydeos.com/',
+                    },
+                    {
+                        label: '品牌标识',
+                        href: 'https://fydeos.com/vi-guidelines/',
+                    },
+                    {
+                        label: 'openFyde',
+                        href: 'https://openfyde.cn/',
+                    },{
+                        label: '工作机会',
+                        href: 'https://fydeos.com/career',
                     },
                 ],
             },
             {
                 title: '找到我们',
                 items: [
-                    {
-                        label: '商务联系',
-                        href: 'mailto:hi@fydeos.io',
-                    },
-                    {
-                        label: 'FydeOS 社区',
-                        href: 'https://community.fydeos.com/',
-                    },
                     {
                         label: '微信公众号',
                         href: 'https://mp.weixin.qq.com/s/ChEgxvRqCivefcFEsoIWkg',
@@ -125,80 +158,106 @@ function getFooterLinks(locale) {
                         href: 'https://www.zhihu.com/org/fydeos',
                     },
                     {
+                        label: 'Bilibili',
+                        href: 'https://space.bilibili.com/13962567',
+                    },
+                    {
                         label: '微博',
                         href: 'https://weibo.com/7792821678',
                     },
+                    {
+                        label: '商务合作',
+                        href: 'mailto:hi@fydeos.io',
+                    },
                 ],
-            },
-            {
-                title: '更多',
-                items: [
-                    {
-                        label: 'FydeOS 官网',
-                        href: 'https://fydeos.com/',
-                    },
-                    {
-                        label: 'Fydetab Duo 官网',
-                        href: 'https://fydetabduo.cn/',
-                    },
-                    {
-                        label: 'FydeOS 官方商店',
-                        href: 'https://madeforfydeos.cn/',
-                    },
-
-    ],
             }
         ];
     } else {
         return [
             {
-                title: 'Docs',
+                title: 'Info',
                 items: [
                     {
-                        label: 'Intro',
-                        to: '/',
+                        label: 'Download',
+                        to: 'https://fydeos.io/download/',
+                    },
+                    {
+                        label: 'Enterprise',
+                        href: 'https://fydeos.io/enterprise-solution/',
+                    },
+                    {
+                        label: 'Pricing',
+                        href: 'https://fydeos.io/pricing/',
+                    },
+                    {
+                        label: 'Help',
+                        href: 'https://fydeos.io/help/',
+                    },
+                    {
+                        label: 'Help',
+                        href: 'https://fydeos.io/privacy/',
+                    },
+                    {
+                        label: 'Terms',
+                        href: 'https://fydeos.io/terms/',
                     },
                 ],
             },
             {
-                title: 'Find Us @',
+                title: 'Service',
                 items: [
                     {
-                        label: 'Business Contact',
-                        href: 'mailto:hi@fydeos.io',
+                        label: 'Account',
+                        href: 'https://account.fydeos.io/',
                     },
                     {
-                        label: 'Discord',
+                        label: 'Community',
+                        href: 'https://community.fydeos.io/',
+                    },
+                    {
+                        label: 'Blog',
+                        href: 'https://fydeos.io/blog',
+                    },
+                    {
+                        label: 'Press',
+                        href: 'https://fydeos.io/vi-guidelines/',
+                    },
+                    {
+                        label: 'openFyde',
+                        href: 'https://openfyde.io/',
+                    },
+                ],
+            },
+            {
+                title: 'Find US @',
+                items: [
+                    {
+                        label: 'Telegram group',
+                        href: 'https://t.me/hi_fydeos',
+                    },
+                    {
+                        label: 'Discord server',
                         href: 'https://discord.gg/Qv3kxGeMJQ',
                     },
                     {
-                        label: 'Reddit',
-                        href: 'https://www.reddit.com/r/fydeos/',
+                        label: 'r/FydeOS',
+                        href: 'https://www.reddit.com/r/hi_fydeos/',
                     },
                     {
-                        label: 'Telegram Group',
-                        href: 'https://t.me/hi_fydeos',
-                    },
-                ],
-            },
-            {
-                title: 'More',
-                items: [
-                    {
-                        label: 'FydeOS Official Website',
-                        href: 'https://fydeos.io/',
+                        label: 'Youtube',
+                        href: 'https://www.youtube.com/channel/UCC5RcmZwxIqcPDjgArxpbOQ',
                     },
                     {
                         label: 'GitHub',
                         href: 'https://github.com/FydeOS',
                     },
                     {
-                        label: 'Fydetab Duo Official Website',
-                        href: 'https://fydetabduo.com/',
+                        label: 'Linkedln',
+                        href: 'https://www.linkedin.com/company/fyde-innovations',
                     },
                     {
-                        label: 'FydeOS Official Store',
-                        href: 'https://madeforfydeos.com/',
+                        label: 'Business contact',
+                        href: 'mailto:hi@fydeos.io',
                     },
                 ],
             }
@@ -206,6 +265,7 @@ function getFooterLinks(locale) {
         ];
 
     }
+
 }
 
 module.exports = config;
