@@ -194,7 +194,7 @@ function getFooterLinks(locale) {
                         href: 'https://fydeos.io/help/',
                     },
                     {
-                        label: 'Help',
+                        label: 'Privacy',
                         href: 'https://fydeos.io/privacy/',
                     },
                     {
