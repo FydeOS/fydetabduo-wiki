@@ -30,6 +30,32 @@ const config = {
             },
         },
     },
+    plugins: [
+        [
+            '@docusaurus/plugin-client-redirects',
+            {
+                createRedirects(existingPath) {
+                    // 示例：去除"/wiki/category"前缀，但保留后续路径
+                    if (existingPath.startsWith('/wiki/category/')) {
+                        return [existingPath.replace('/wiki/category', '/wiki')];
+                    }
+                    return [];
+
+                },
+            },
+        ],
+        [
+            require.resolve("@easyops-cn/docusaurus-search-local"),
+            {
+                hashed: true,
+                language: ["en", "zh"], // 可以根据你的需求添加或修改语言
+                indexDocs: true,
+                indexBlog: false,
+                indexPages: true,
+                docsRouteBasePath: "/",
+            },
+        ],
+    ],
     presets: [
         [
             'classic',
