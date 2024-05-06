@@ -1,0 +1,1 @@
+(self.webpackChunkfydetab_wiki=self.webpackChunkfydetab_wiki||[]).push([[741],{5741:()=>{}}]);
