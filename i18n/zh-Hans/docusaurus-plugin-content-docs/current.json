@@ -6,5 +6,13 @@
   "sidebar.tutorialSidebar.category.OS Release Board": {
     "message": "OS 发布版本",
     "description": "The label for category OS Release Board in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.🛠️ Hacking your Fydetab Duo": {
+    "message": "🛠️ 深入探索 Fydetab Duo",
+    "description": "The label for category 🛠️ Hacking your Fydetab Duo in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.📋 OS Release Board": {
+    "message": "📋 操作系统发布",
+    "description": "The label for category 📋 OS Release Board in sidebar tutorialSidebar"
   }
 }
