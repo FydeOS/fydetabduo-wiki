@@ -205,7 +205,7 @@ function getFooterLinks(locale) {
                 items: [
                     {
                         label: 'Download',
-                        to: 'https://fydeos.io/download/',
+                        href: 'https://fydeos.io/download/',
                     },
                     {
                         label: 'Enterprise',
