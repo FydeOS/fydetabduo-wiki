@@ -75,6 +75,10 @@ const config = {
         ],
     ],
     themeConfig: {
+        metadata: [
+            {name: 'keywords', content: 'fydetabduo, linux tablet, fydeos, wiki, fydetabduo wiki, opensouce'},
+            {name: 'description', content: 'Open-Source Wiki for the Linux Tablet Fydetab Duo.'},
+          ],
         image: 'img/fydeos-social-card.png',
         sidebar: {
             hideable: true,
