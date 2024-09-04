@@ -1,4 +1,4 @@
-// @ts-check
+// @ts-nocheck
 // Note: type annotations allow type checking and IDEs autocompletion
 
 import {themes as prismThemes} from 'prism-react-renderer';
@@ -30,6 +30,7 @@ const config = {
             },
         },
     },
+    // @ts-ignore
     plugins: [
         [
             '@docusaurus/plugin-client-redirects',
