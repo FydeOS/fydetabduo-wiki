@@ -7,7 +7,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
     title: 'Fydetab Duo Wiki',
     tagline: 'Wiki',
-    favicon: 'img/logo.svg',
+    favicon: '/img/logo.svg',
     url: 'https://wiki.fydetabduo.com',
     baseUrl: '/',
     organizationName: 'FydeOS',
