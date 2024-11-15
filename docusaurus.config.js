@@ -133,7 +133,7 @@ function getFooterLinks(locale) {
                     },
                     {
                         label: '解决方案',
-                        href: 'https://admin.fydeos.com/',
+                        href: 'https://fydeos.com/enterprise-solution/',
                     },
                     {
                         label: '查看定价',
