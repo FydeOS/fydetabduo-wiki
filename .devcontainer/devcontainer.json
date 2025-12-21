@@ -1,0 +1,22 @@
+{
+    "name": "fydetabduo-wiki",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "18",
+            "installYarn": "true"
+        }
+    },
+    
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "workbench.colorTheme": "Solarized Dark",
+                "npm.packageManager": "yarn"
+            },
+            "extensions": [
+            ]
+        }
+    }
+}
