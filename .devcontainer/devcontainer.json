@@ -9,13 +9,12 @@
         }
     },
 
-    "postStartCommand": "yarn install --frozen-lockfile",
+    "postCreateCommand": "bash -i -c 'yarn install --frozen-lockfile'",
     
     "customizations": {
         "vscode": {
             "settings": {
-                "workbench.colorTheme": "Solarized Dark",
-                "npm.packageManager": "yarn"
+                "workbench.colorTheme": "Solarized Dark"
             },
             "extensions": [
             ]
