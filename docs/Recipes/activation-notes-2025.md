@@ -17,14 +17,14 @@ After the conversion, you will restart from the OOBE. From this point on, your F
 The process is demonstrated in the video below.
 
 <video width="100%" controls>
-  <source src={require('./com2io.mp4').default} type="video/mp4"/>
+  <source src={require('/img/com2io.mp4').default} type="video/mp4"/>
   covert com to io
 </video>
 
 ## Verify if the conversion is successful
 Navigate to Settings -> About FydeOS, you can verify whether the version conversion has been successfully completed, by checking if your FydeOS is offered by https://fydeos.io, as shown below.
 
-![verify](./verify.png)
+![verify](/img/verify.png)
 
 ## Manually convert if automatic OTA fails
 If for whatever reason the abovementioned process didn’t happen or failed in midway, (that your FydeOS is still offered by https://fydeos.com on About FydeOS), you can use the following guide to execute a script to complete the conversion manually.
@@ -36,7 +36,7 @@ You can enter “crosh” shell by pressing "Ctrl+Alt+t", and enter “shell” 
 shell
 sudo -i
 ```
-![enter shell](./shell.png)
+![enter shell](/img/shell.png)
 
 ### **2.Copy and run the script**
 
@@ -45,7 +45,7 @@ Copy the following command to execute the remote script, and follow the on-scree
 curl -fsSL bit.ly/3IG5tuK | sudo bash
 ```
 
-![flashing](./flashing.png)
+![flashing](/img/flashing.png)
 
 Once completed, you will need to reboot your device to begin from OOBE.
 

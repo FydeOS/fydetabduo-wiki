@@ -14,5 +14,9 @@
   "sidebar.tutorialSidebar.category.📋 Available OS": {
     "message": "📋 操作系统发布",
     "description": "The label for category 📋 Available OS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.📖 Recipes": {
+    "message": "📖 指南",
+    "description": "关于Fydetab Duo的一系列指南与教程"
   }
 }
