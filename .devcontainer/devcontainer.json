@@ -1,0 +1,23 @@
+{
+    "name": "fydetabduo-wiki",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "18",
+            "installYarn": "true"
+        }
+    },
+
+    "postCreateCommand": "bash -i -c 'yarn install --frozen-lockfile'",
+    
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "workbench.colorTheme": "Solarized Dark"
+            },
+            "extensions": [
+            ]
+        }
+    }
+}
