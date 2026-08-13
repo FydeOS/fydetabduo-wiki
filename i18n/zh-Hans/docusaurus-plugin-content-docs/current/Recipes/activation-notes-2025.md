@@ -6,7 +6,7 @@
 如果您的Fydetab Duo需要进行该映像转换的额外步骤，通常您会收到我们运营团队发送的通知邮件。
 
 ## 操作指南
-全新Fydetab Duo出厂预装FydeOS v18，这是一个较旧的版本。截至本文发布时，当前稳定版本为v20“Cosmic Memories”，因此在完成初始设置（开箱体验，即OOBE）后，FydeOS将自动更新至最新版本。
+全新Fydetab Duo出厂预装FydeOS v18，这是一个较旧的版本。截至本文发布时，当前稳定版本为v22“Radiant Anatomy”，因此在完成初始设置（开箱体验，即OOBE）后，FydeOS将自动更新至最新版本。
 
 如果您的设备符合转换条件，在首次操作系统更新之后，您的Fydetab Duo将执行一次清除数据恢复出厂设置（Powerwash），擦除所有数据并重新进入OOBE。这是因为您的操作系统已自动转换为特定于您所在地区的版本。
 
@@ -22,12 +22,12 @@
 </video>
 
 ## 验证转换是否成功
-进入“设置” → “关于FydeOS”，您可以检查您的FydeOS是否由 https://fydeos.io 提供，从而验证版本转换是否已完成，如下图所示。
+进入“设置” → “关于FydeOS”，您可以检查您的FydeOS是否由 https://fydeos.com 提供，从而验证版本转换是否已完成，如下图所示。
 
 ![verify](/img/verify.png)
 
 ## 若自动OTA失败，手动进行转换
-如果由于某些原因上述过程未发生或中途失败（在“关于FydeOS”中您的FydeOS仍由 https://fydeos.com 提供），您可以按照以下指南执行脚本来手动完成转换。
+如果由于某些原因上述过程未发生或中途失败（在“关于FydeOS”中您的FydeOS不由 https://fydeos.com 提供），您可以按照以下指南执行脚本来手动完成转换。
 
 ### **1. 进入Shell**
 您可以按“Ctrl+Alt+t”进入“crosh” shell，看到“crosh>”提示符后输入“shell”，然后输入“sudo -i”以获取root权限。更多信息请参阅此指南：https://fydeos.io/help/knowledge-base/developer-options/developer-mode/terminal-basics-guide/
