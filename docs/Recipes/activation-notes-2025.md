@@ -6,7 +6,7 @@ Due to stock management issues, some Fydetab Duo devices may require an addition
 If your Fydetab Duo requires this additional step of image conversion, typically you should get an email to inform you about it from our operation team.
 
 ## How-to
-Brand new Fydetab Duo ships with FydeOS v18, an older version. The current stable release, at the time of the publication of this article, is v20 "Cosmic Memories," so after the initial setup (out-of-box experience or OOBE), FydeOS will automatically update to the latest version.
+Brand new Fydetab Duo ships with FydeOS v18, an older version. The current stable release, at the time of the publication of this article, is v22 "Radiant Anatomy," so after the initial setup (out-of-box experience or OOBE), FydeOS will automatically update to the latest version.
 
 If your device is eligible for conversion, following this first OS update, your Fydetab Duo will undergo a powerwash, erasing all data and restarting with the OOBE. This occurs because your OS is automatically converted to the version specific to your region.
 
