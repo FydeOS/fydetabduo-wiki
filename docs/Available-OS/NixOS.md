@@ -8,7 +8,7 @@ title: NixOS
 
 [NixOS](https://nixos.org) running natively on the Fydetab Duo, via [fyde-nix](https://github.com/NixOnFyde/fyde-nix) — a nix flake maintained by [@skifli](https://github.com/skifli). It is built on a vendor 6.12 kernel and by default ships labwc + ReGreet as the desktop, with the final goal of feature parity with FydeOS.
 
-![Preview](/img/fyde-nix.png)
+![Preview](/img/fyde-nix.webp)
 
 ## ✨ What works
 
